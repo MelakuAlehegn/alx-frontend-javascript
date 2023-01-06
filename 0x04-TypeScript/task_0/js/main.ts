@@ -1,8 +1,8 @@
 interface Student {
     firstName: string;
     lastName: string;
-    age:number;
-    location:string;
+    age: number;
+    location: string;
 }
 
 const stud1: Student = {
@@ -28,7 +28,7 @@ table.innerHTML = (
                 </tr>`
                 )
 
-studentsList.forEach((stud: Student):void => {
+studentsList.forEach((stud: Student): void => {
     const eleme = (
         `<tr>
             <td>${stud.firstName}</td>
