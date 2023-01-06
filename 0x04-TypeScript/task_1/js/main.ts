@@ -48,7 +48,7 @@ interface studentInterface{
 class StudentClass implements studentInterface{
     firstName: string;
     lastName:string;
-    constructor(firstName:string, lastName:string;){
+    constructor(firstName:string, lastName:string){
        this.firstName = firstName,
        this.lastName = lastName
     }
@@ -59,4 +59,3 @@ class StudentClass implements studentInterface{
         return this.firstName
     }
 }
-console.log(StudentClass())
